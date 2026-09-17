@@ -1,0 +1,23 @@
+{
+  "catalog": [
+    {
+      "name": "EURO 9 SYSTEM",
+      "file": "EURO.9.SYSTEM.pdf",
+      "thumb": "EURO.9.SYSTEM.thumb.jpg",
+      "preview": "EURO.9.SYSTEM.preview.pdf"
+    },
+    {
+      "name": "FENEST",
+      "file": "FENEST.pdf",
+      "thumb": "FENEST.thumb.jpg",
+      "preview": "FENEST.preview.pdf"
+    },
+    {
+      "name": "VUEFRAME",
+      "file": "VUEFRAME.pdf",
+      "thumb": "VUEFRAME.thumb.jpg",
+      "preview": "VUEFRAME.preview.pdf"
+    }
+  ],
+  "test-reports": []
+}
