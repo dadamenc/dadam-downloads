@@ -11,6 +11,11 @@ on:
 permissions:
   contents: write
 
+# 업로드 직후 dispatch·release 이벤트·cron이 겹쳐도 조각을 두 번 합치지 않게 한 번에 하나만.
+concurrency:
+  group: process-release
+  cancel-in-progress: false
+
 jobs:
   process:
     runs-on: ubuntu-latest
