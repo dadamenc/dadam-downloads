@@ -13,6 +13,12 @@
       "preview": "FENEST.preview.pdf"
     },
     {
+      "name": "LX중문 참고자료",
+      "file": "LX.pdf",
+      "thumb": "LX.thumb.jpg",
+      "preview": "LX.preview.pdf"
+    },
+    {
       "name": "VUEFRAME",
       "file": "VUEFRAME.pdf",
       "thumb": "VUEFRAME.thumb.jpg",
