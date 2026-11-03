@@ -8,6 +8,7 @@
 원본으로 합치고, 첫 조각의 label(한글 표시 이름)을 원본 label로 옮긴다.
 """
 import json
+import os
 import re
 import subprocess
 import sys
@@ -17,7 +18,8 @@ from pathlib import Path
 
 import fitz  # PyMuPDF
 
-REPO = "dadamenc/dadam-downloads"
+# 실행 중인 저장소(GitHub Actions 가 GITHUB_REPOSITORY 로 알려줌) — 복제 저장소가 원본을 건드리지 않게.
+REPO = os.environ.get("GITHUB_REPOSITORY", "dadamenc/dadam-downloads")
 TAGS = {
     "catalog-v1": "catalog",
     "test-reports-v1": "test-reports",
